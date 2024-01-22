@@ -3,6 +3,7 @@ import Alert from "./components/Alert";
 import ListGroup from "./components/ListGroup";
 import Button from "./components/Button";
 import { useState } from "react";
+import Testing from "./components/Testing";
 
 function App() {
   const [onAlert, setOnAlert] = useState(false);
@@ -34,13 +35,14 @@ function App() {
         )}
         <Button
           children="My Button"
-          // color="danger"
+          // color="secondary"
           onClick={() => {
             setOnAlert(true);
             console.log("Alert displayed");
           }}
         ></Button>
       </div>
+      <Testing onSelect={() => console.log("clicked")} tooty="Testing" />
     </div>
   );
 }
