@@ -45,4 +45,5 @@ export default Testing;
 7. Add a function that logs selected item to the console
 8. Find a way to implement handle select function to the code
 8. Find a way to implement handle select function to the code
+8. Find a way to implement handle select function to the code
 */
