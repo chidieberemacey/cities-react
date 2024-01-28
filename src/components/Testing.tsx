@@ -44,6 +44,4 @@ export default Testing;
 6. Use state to change state of selected item
 7. Add a function that logs selected item to the console
 8. Find a way to implement handle select function to the code
-8. Find a way to implement handle select function to the code
-8. Find a way to implement handle select function to the code
 */
