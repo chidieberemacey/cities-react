@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-interface Props {
+type Props = {
   items: string[];
   heading: string;
   onSelectItem: (item: string) => void;
-}
+};
 
 function ListGroup({ items, heading, onSelectItem }: Props) {
   // Hook
